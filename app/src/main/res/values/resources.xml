@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="clientSecret">Client Secret</string>
+    <string name="contractId">Contract Id</string>
+    <string name="ClientId">Client Id</string>
+    <string name="validationType">Validation Type</string>
+    <string name="btnStart">Start</string>
+</resources>
