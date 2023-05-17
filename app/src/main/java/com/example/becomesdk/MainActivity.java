@@ -16,7 +16,7 @@ import com.becomedigital.sdk.identity.becomedigitalsdk.models.ResponseIV;
 public class MainActivity extends AppCompatActivity {
 
     //Con el fin de manejar las respuestas de inicio de sesión, debe crear un callback utilizando el siguiente fragmento de código
-    private BecomeCallBackManager mCallbackManager = BecomeCallBackManager.createNew ( );
+    private final BecomeCallBackManager mCallbackManager = BecomeCallBackManager.createNew ( );
 
     @SuppressLint("WrongThread")
     @Override
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         String validatiopnTypes =  "PASSPORT/LICENSE/DNI/VIDEO" ;
         String clientSecret =  "AK5OZ59W2EV61GSM0FQXNBRU4DTJH3PI" ;
         String clientId =  "jamarprod" ;
-        String contractId =  "6";
-        String userId = "199311";
+        String contractId =  "72";
+        String userId = "12567";
 
         //Instancia para iniciar la interfaz
         BecomeResponseManager.getInstance ( ).startAutentication (MainActivity.this,
