@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         String clientSecret =  "AK5OZ59W2EV61GSM0FQXNBRU4DTJH3PI" ;
         String clientId =  "jamarprod" ;
         String contractId =  "72";
-        String userId = "12567";
+        String userId = "1140894625";
 
         //Instancia para iniciar la interfaz
         BecomeResponseManager.getInstance ( ).startAutentication (MainActivity.this,
